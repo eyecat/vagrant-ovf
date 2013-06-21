@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = '>= 1.3.6'
   s.rubyforge_project         = 'vagrant-ovf'
 
-  s.add_dependency 'vagrant', '~> 0.9.7'
+  s.add_dependency 'vagrant', '>= 0.9.7'
   s.add_development_dependency 'bacon', '~> 1.1'
   s.add_development_dependency 'shoulda', '~> 2.11'
   s.add_development_dependency 'bundler', '>= 1.0.0'
